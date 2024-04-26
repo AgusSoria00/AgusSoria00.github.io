@@ -104,29 +104,6 @@ const App = () => {
   }, []);
 
   const [data, setData] = useState([]);
-  const loadData = () => {
-    const loadedData = [
-      {
-        NombreCompleto: 'Maria de los Angeles Herrera',
-        Fecha: '08/12/14',
-        Consulta: 'Consulta 1',
-        Teléfono: '123456789',
-        Correo: 'maria@example.com',
-        Hora: '10:00 AM',
-        Modalidad: 'Online'
-      },
-      {
-        Cliente: 'Jorge Luis Herrera',
-        Fecha: '09/12/14',
-        Consulta: 'Consulta 2',
-        Teléfono: '987654321',
-        Correo: 'jorge@example.com',
-        Hora: '11:00 AM',
-        Modalidad: 'Presencial'
-      }
-    ];
-    setData(loadedData);
-  };
   const [modalComponent, setModalComponent] = useState(null);
   const handleSetModalVisible = (state, data) => {
     setModalVisible(state);
@@ -155,7 +132,6 @@ const App = () => {
             <button className="icon-chat-empty" onClick={() => setModalVisible(true)}></button>
             {modalVisible && <ModalChat onClose={() => setModalVisible(false)} data={data} />}
             {modal2Visible && <Modal2Chat onClose={() => setModal2Visible(false)} data={data} />}
-            <button onClick={loadData}>Cargar</button>
           </div>
           <div className="btn-mas">
             <label htmlFor="btn-mas" className="icon-plus-1"></label>

@@ -3,7 +3,7 @@ import '../App.css';
 
 const WorkWith = () => {
   const h1Style = {
-    fontSize: '30px',
+    fontSize: '1.5rem',
   }
   return (
     <div>

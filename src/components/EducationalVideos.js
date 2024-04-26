@@ -62,15 +62,19 @@ const EducationalVideos = () => {
   let descriptionStyle = {
     marginTop: '30px',
     textAlign: 'center',
-    fontSize: '1.5rem',
+    fontSize: '1.6rem',
   };
 
-  if (window.matchMedia("(max-width: 900px)").matches) {
+  if (window.matchMedia("(max-width: 1000px)").matches) {
     descriptionStyle = {
       ...descriptionStyle,
-      marginRight: '30%',
-      marginLeft: '30%'
-    }
+      display: 'none', 
+    };
+  } else {
+    descriptionStyle = {
+      ...descriptionStyle,
+      display: 'block', 
+    };
   }
 
   return (
