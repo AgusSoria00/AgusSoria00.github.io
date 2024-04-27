@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/reactfrontend/static/css/main.da3bfb76.css",
-    "main.js": "/reactfrontend/static/js/main.aeb6a53d.js",
-    "static/js/453.873e8afd.chunk.js": "/reactfrontend/static/js/453.873e8afd.chunk.js",
-    "static/media/imagenFondo2.jpeg": "/reactfrontend/static/media/imagenFondo2.dea65c4697fd9a98b5f3.jpeg",
-    "static/media/imagenFondo.jpeg": "/reactfrontend/static/media/imagenFondo.44582892be0e354bc597.jpeg",
-    "static/media/fontello.eot": "/reactfrontend/static/media/fontello.12cd5b54796274b6fd03.eot",
-    "static/media/fontello.ttf": "/reactfrontend/static/media/fontello.69f95e0cc679df4af9db.ttf",
-    "static/media/fontello.woff": "/reactfrontend/static/media/fontello.6b66a449842d4c83ad8e.woff",
-    "static/media/fontello.woff2": "/reactfrontend/static/media/fontello.260e685cb446b532822f.woff2",
-    "static/media/fontello.svg": "/reactfrontend/static/media/fontello.5614ffb2eaf67e03ee00.svg",
-    "index.html": "/reactfrontend/index.html",
-    "main.da3bfb76.css.map": "/reactfrontend/static/css/main.da3bfb76.css.map",
-    "main.aeb6a53d.js.map": "/reactfrontend/static/js/main.aeb6a53d.js.map",
-    "453.873e8afd.chunk.js.map": "/reactfrontend/static/js/453.873e8afd.chunk.js.map"
+    "main.css": "/static/css/main.878797c9.css",
+    "main.js": "/static/js/main.c6bc5fa3.js",
+    "static/js/453.873e8afd.chunk.js": "/static/js/453.873e8afd.chunk.js",
+    "static/media/imagenFondo2.jpeg": "/static/media/imagenFondo2.dea65c4697fd9a98b5f3.jpeg",
+    "static/media/imagenFondo.jpeg": "/static/media/imagenFondo.44582892be0e354bc597.jpeg",
+    "static/media/fontello.eot": "/static/media/fontello.12cd5b54796274b6fd03.eot",
+    "static/media/fontello.ttf": "/static/media/fontello.69f95e0cc679df4af9db.ttf",
+    "static/media/fontello.woff": "/static/media/fontello.6b66a449842d4c83ad8e.woff",
+    "static/media/fontello.woff2": "/static/media/fontello.260e685cb446b532822f.woff2",
+    "static/media/fontello.svg": "/static/media/fontello.5614ffb2eaf67e03ee00.svg",
+    "index.html": "/index.html",
+    "main.878797c9.css.map": "/static/css/main.878797c9.css.map",
+    "main.c6bc5fa3.js.map": "/static/js/main.c6bc5fa3.js.map",
+    "453.873e8afd.chunk.js.map": "/static/js/453.873e8afd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da3bfb76.css",
-    "static/js/main.aeb6a53d.js"
+    "static/css/main.878797c9.css",
+    "static/js/main.c6bc5fa3.js"
   ]
 }
