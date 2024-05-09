@@ -319,7 +319,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	height: 150vh;
+	height: 125vh;
 	position: relative;
 }
 
@@ -337,9 +337,9 @@ img {
 	width: 80%;
 	height: auto;
 	position: relative;
-	margin-left: 65%;
-	bottom: 90.9%;
-	max-width: 70%;
+	margin-left: 75%;
+	bottom: 87.5%;
+	max-width: 100%;
 	z-index: 2;
 }
 
@@ -374,7 +374,7 @@ img {
 }
 
 .primerColor p {
-	font-size: 23px;
+	font-size: 3vh;
 	text-align: justify;
 	width: 50%;
 	margin: 1vh 5vw 10vh;
@@ -1194,7 +1194,7 @@ img {
 
 @media (max-width: 1399px) {
 	#workWith .subseccion p {
-		font-size: 1.5rem;
+		font-size: 1.1rem;
 	}
 
 	#workWith p {
@@ -1449,7 +1449,8 @@ img {
 		border-radius: 10px;
 		z-index: -1;
 		width: 130%;
-		font-weight: lighter;
+		font-weight: bolder;
+		height: 71%;
 	}
 
 	#appointments > div > h3,
@@ -1468,6 +1469,7 @@ img {
 		position: relative;
 		margin-right: 45%;
 		border-radius: 25px;
+		bottom: -90%;
 	}
 }
 
@@ -1737,7 +1739,7 @@ img {
 	}
 
 	.primerColor p {
-		font-size: 23px;
+		font-size: 1rem;
 		text-align: justify;
 		width: 75%;
 		margin: 2vh 5vw 7vh;
@@ -1778,19 +1780,23 @@ img {
 	}
 
 	.casillero2 textarea {
-		width: 70%;
+		width: 60%;
 		margin: 0 16vw;
 		text-align: center;
+		height: 40%;
 	}
 
 	.casillero2 label {
 		text-align: center;
-		margin-left: 14vw;
+		margin-left: 7vw;
 	}
 
 	.emergency-titulo {
 		font-size: 20px;
 		margin-bottom: 5vh;
+	}
+	.enviar-button{
+		bottom: 5%;
 	}
 }
 
